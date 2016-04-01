@@ -24,7 +24,7 @@ cacheSolve <- function(x, ...) {
      if(!is.null(inv)) {
          massage("Getting cached data...")
         
-          ## Return an inversed matrix frome cache if it's exist 
+          ## Return an inversed matrix from cache if it's exist 
          return(inv)
      }
      data <- x$get()
